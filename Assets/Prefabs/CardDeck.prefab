@@ -1,0 +1,572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715668779447028}
+  m_IsPrefabAsset: 1
+--- !u!1 &1715668779447028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4367194138566968}
+  - component: {fileID: 114731534539866104}
+  - component: {fileID: 114294818248262554}
+  - component: {fileID: 114842873621526088}
+  - component: {fileID: 114009790386130062}
+  - component: {fileID: 114325935430471924}
+  - component: {fileID: 114927033826082832}
+  - component: {fileID: 114581199322356280}
+  - component: {fileID: 114211742773247074}
+  m_Layer: 0
+  m_Name: CardDeck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4367194138566968
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114009790386130062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37df46e86010a34a8b461937e5e29bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114211742773247074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f6ae3280e11144e8bc7e830f63ad48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114294818248262554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503b0453a5fb0f045b00381088421ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - title: Out of Hibernation
+    message: They finally strolled out of their caves once their sun burned out and
+      are looking for some new picnics to raid!
+    sprite: {fileID: 21300000, guid: cb23f1f4fa6d62a449ac73bbf01652e2, type: 3}
+    species: 8
+    specificCards: 
+    speciesCardIndex: 7
+    speciesCountRange: 1
+    randomCards: 1
+  - title: Blackjack and Hookers
+    message: Some robots have arrived saying this is the last place in the universe
+      to party!
+    sprite: {fileID: 21300000, guid: e60743574363e414c99fd345838db4fb, type: 3}
+    species: 2
+    specificCards: 08000000
+    speciesCardIndex: 1
+    speciesCountRange: 2
+    randomCards: 1
+  - title: Rock and Roll
+    message: They leave pollen strewn all about but at least you'll get to live the
+      end of the universe with some good rock!
+    sprite: {fileID: 21300000, guid: 512c21bc1afb83740a22d723a566aafe, type: 3}
+    species: 6
+    specificCards: 
+    speciesCardIndex: 5
+    speciesCountRange: 1
+    randomCards: 1
+  - title: What a Croc!
+    message: You're not sure about modern fashion sense but they seem like decent
+      enough fellas.
+    sprite: {fileID: 21300000, guid: 3281dc4cb7ec263409f9f0a9486d3db2, type: 3}
+    species: 1
+    specificCards: 
+    speciesCardIndex: 0
+    speciesCountRange: 1
+    randomCards: 1
+  - title: The Boyz are Back
+    message: Some surprisingly pleasant orks have found their way to your station.
+    sprite: {fileID: 21300000, guid: 01a89fe3937a7a34da99f247ae5257b0, type: 3}
+    species: 5
+    specificCards: 
+    speciesCardIndex: 4
+    speciesCountRange: 1
+    randomCards: 1
+  - title: Trick or Treat!
+    message: You're not sure what to give space lizards for Halloween but will you
+      let them stay?
+    sprite: {fileID: 21300000, guid: 70607a7d4e9ca4946a67d8b05a28e5e7, type: 3}
+    species: 7
+    specificCards: 
+    speciesCardIndex: 6
+    speciesCountRange: 1
+    randomCards: 1
+  - title: Friendly Danger Noodles
+    message: When you ask how they built their first prosthetics not even they could
+      answer.
+    sprite: {fileID: 21300000, guid: 8a8f068c0613ef648b12a020c032035c, type: 3}
+    species: 4
+    specificCards: 
+    speciesCardIndex: 3
+    speciesCountRange: 1
+    randomCards: 1
+  - title: What's Green, Gross, and Slimy?
+    message: Maybe you can convince them to help keep the sewers clean?
+    sprite: {fileID: 21300000, guid: 62a9ac04298db494fb6845a04dd2492d, type: 3}
+    species: 3
+    specificCards: 
+    speciesCardIndex: 2
+    speciesCountRange: 1
+    randomCards: 1
+  - title: Abandoned Cruise Ship
+    message: An abandoned luxury cruise liner floats past ripe for salvaging. Look
+      at all that delicious food and booze!
+    sprite: {fileID: 21300000, guid: f4286c9971dc65c48b257bf9e99f062f, type: 3}
+    species: 0
+    specificCards: 09000000090000000a0000000a000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Against All Probability
+    message: When you tried defending yourself against a fleet of pirates, all of
+      a sudden your missiles turned into bowls of petunias and the pirate ships vanished!
+      In this unlikeliest of circumstances it was discovered that petunias are a great
+      source of power!
+    sprite: {fileID: 21300000, guid: 9f0b32a02e600f94384be2e4a4c8d3ad, type: 3}
+    species: 0
+    specificCards: 0800000008000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Some Wacky Scientists
+    message: Just when you thought science had come up with it all, they provide a
+      solution to the overcrowding on the station!
+    sprite: {fileID: 21300000, guid: 0d294e6e9e0dbab4b83f2466215e4a06, type: 3}
+    species: 0
+    specificCards: 0b000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Overdrive!
+    message: Some scientists on the station have learned to harness even more power
+      from the plants!
+    sprite: {fileID: 21300000, guid: e627c21b6ff92014eaaef99836b98219, type: 3}
+    species: 0
+    specificCards: 0c000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Stinky
+    message: A herd of smelly cows stopped by. They weren't interested in sticking
+      around but dropped off a load that might be useful!
+    sprite: {fileID: 0}
+    species: 0
+    specificCards: 0d000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Food Breakthrough!
+    message: They taste like crap but they leave more room for beer!
+    sprite: {fileID: 0}
+    species: 0
+    specificCards: 0e000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Advanced Robots!
+    message: A hyper advanced race of robots called the Engi offer to increase your
+      station capacity in exchange for a place to call home.
+    sprite: {fileID: 21300000, guid: e60743574363e414c99fd345838db4fb, type: 3}
+    species: 0
+    specificCards: 0f000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: The Bee-tles Pandemonium!
+    message: Everyone's favorite rock stars want to live out the end of the universe
+      at your station!
+    sprite: {fileID: 21300000, guid: 512c21bc1afb83740a22d723a566aafe, type: 3}
+    species: 0
+    specificCards: 11000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: The Spice Must Flow
+    message: You're unsure if this is a savory sort but they guarantee your bars will
+      become a hit.
+    sprite: {fileID: 21300000, guid: 3281dc4cb7ec263409f9f0a9486d3db2, type: 3}
+    species: 0
+    specificCards: 10000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  - title: Desert Oasis
+    message: A ship outfitted to look like their homeworld has shown up. These lizards
+      say their habitat module can fit into the station.
+    sprite: {fileID: 21300000, guid: 70607a7d4e9ca4946a67d8b05a28e5e7, type: 3}
+    species: 7
+    specificCards: 12000000
+    speciesCardIndex: -1
+    speciesCountRange: 0
+    randomCards: 0
+  deck: {fileID: 114731534539866104}
+--- !u!114 &114325935430471924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b05551ceaa77c4eba4614e1938bf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114581199322356280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d35f64a87f2f04184a17e00b5ca018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114731534539866104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7adeb81dfe3cf9b4fb81926c994253d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 1501518069365140, guid: 140f8e48bfdc7a74d8406756d5b4d7d6, type: 2}
+  cards:
+  - cardName: HUMAN
+    description: Who knew overalls would be the fashion of the future?
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.033018887, g: 0.732274, b: 1, a: 1}
+    isModifier: 0
+    species: 1
+    art: {fileID: 21300000, guid: 3281dc4cb7ec263409f9f0a9486d3db2, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: ROBOT
+    description: Leave it to machine to appreciate fancy hats.
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+    isModifier: 0
+    species: 2
+    art: {fileID: 21300000, guid: e60743574363e414c99fd345838db4fb, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: 0
+    entertainment: 0
+    reactor: -1
+    size: -1
+  - cardName: SLUG
+    description: They leave a trail of goo wherever they go. Gross.
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.061721236, g: 0.6886792, b: 0.06903282, a: 1}
+    isModifier: 0
+    species: 3
+    art: {fileID: 21300000, guid: 62a9ac04298db494fb6845a04dd2492d, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: 0
+    reactor: 0
+    size: -1
+  - cardName: SNAKE
+    description: You're not sure how they were able to build the first prosthetics
+      but they seem quite able these days!
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.7924528, g: 0.15325737, b: 0.15325737, a: 1}
+    isModifier: 0
+    species: 4
+    art: {fileID: 21300000, guid: 8a8f068c0613ef648b12a020c032035c, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: ORK
+    description: Fans of craft beer and tattoos.
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.033018887, g: 0.732274, b: 1, a: 1}
+    isModifier: 0
+    species: 5
+    art: {fileID: 21300000, guid: 01a89fe3937a7a34da99f247ae5257b0, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: BEE
+    description: At least they provide good music for the end of the universe but
+      you could do without all the pollen.
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.6037736, g: 0.4089472, b: 0.09967959, a: 1}
+    isModifier: 0
+    species: 6
+    art: {fileID: 21300000, guid: 512c21bc1afb83740a22d723a566aafe, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: LIZARD
+    description: You swear you've seen pictures of these guys from 20th century television.
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.7924528, g: 0.15325737, b: 0.15325737, a: 1}
+    isModifier: 0
+    species: 7
+    art: {fileID: 21300000, guid: 70607a7d4e9ca4946a67d8b05a28e5e7, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: BEAR
+    description: Hide yo kids, hide yo pic-a-nic baskets!
+    sectionColor: {r: 1, g: 1, b: 1, a: 1}
+    cardColor: {r: 0.6037736, g: 0.4089472, b: 0.09967959, a: 1}
+    isModifier: 0
+    species: 8
+    art: {fileID: 21300000, guid: cb23f1f4fa6d62a449ac73bbf01652e2, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: -1
+    reactor: 0
+    size: -1
+  - cardName: POWER PLANT
+    description: What were you expecting, a solar panel?
+    sectionColor: {r: 1, g: 0.9747957, b: 0, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 0
+    species: 0
+    art: {fileID: 21300000, guid: 9f0b32a02e600f94384be2e4a4c8d3ad, type: 3}
+    modifier: {fileID: 0}
+    Random: 1
+    population: 0
+    food: 0
+    entertainment: 0
+    reactor: 2
+    size: -1
+  - cardName: FARM
+    description: 
+    sectionColor: {r: 0, g: 1, b: 0.071077585, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 0
+    species: 0
+    art: {fileID: 21300000, guid: 5a064cbed7ec5c14baacacac9a9f3ede, type: 3}
+    modifier: {fileID: 0}
+    Random: 1
+    population: 0
+    food: 2
+    entertainment: 0
+    reactor: 0
+    size: -1
+  - cardName: BAR
+    description: 
+    sectionColor: {r: 0, g: 0.53050137, b: 1, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 0
+    species: 0
+    art: {fileID: 21300000, guid: f4286c9971dc65c48b257bf9e99f062f, type: 3}
+    modifier: {fileID: 0}
+    Random: 1
+    population: 0
+    food: 0
+    entertainment: 2
+    reactor: -1
+    size: -1
+  - cardName: SHRINK RAY
+    description: Shrinks the inhabitants of a station wing so that they take up less
+      space!
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 1
+    species: 0
+    art: {fileID: 21300000, guid: 0d294e6e9e0dbab4b83f2466215e4a06, type: 3}
+    modifier: {fileID: 114842873621526088}
+    Random: 0
+    population: 0
+    food: 0
+    entertainment: 0
+    reactor: -1
+    size: 0
+  - cardName: OVERDRIVE
+    description: Doubles the output of Power Plant cards.
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 1
+    species: 0
+    art: {fileID: 21300000, guid: e627c21b6ff92014eaaef99836b98219, type: 3}
+    modifier: {fileID: 114009790386130062}
+    Random: 0
+    population: 0
+    food: 0
+    entertainment: 0
+    reactor: 0
+    size: 0
+  - cardName: FERTILIZER
+    description: Doubles the output of farms.
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 1
+    species: 0
+    art: {fileID: 0}
+    modifier: {fileID: 114325935430471924}
+    Random: 0
+    population: 0
+    food: 0
+    entertainment: 0
+    reactor: 0
+    size: 0
+  - cardName: FOOD PILLS
+    description: Halves the requirement for food.
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 1, g: 1, b: 1, a: 1}
+    isModifier: 1
+    species: 0
+    art: {fileID: 0}
+    modifier: {fileID: 114927033826082832}
+    Random: 0
+    population: 0
+    food: 0
+    entertainment: 0
+    reactor: 0
+    size: 0
+  - cardName: ENGI ROBOTS
+    description: Super advanced robots that can add capacity to a station wing!
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    isModifier: 1
+    species: 2
+    art: {fileID: 21300000, guid: e60743574363e414c99fd345838db4fb, type: 3}
+    modifier: {fileID: 114211742773247074}
+    Random: 0
+    population: 1
+    food: 0
+    entertainment: 0
+    reactor: -1
+    size: 0
+  - cardName: SPICE HUMANS
+    description: They bring a little extra something to the bar to party with making
+      them twice as effective.
+    sectionColor: {r: 1, g: 0, b: 0.8579731, a: 1}
+    cardColor: {r: 0.033018887, g: 0.732274, b: 1, a: 1}
+    isModifier: 1
+    species: 1
+    art: {fileID: 21300000, guid: 3281dc4cb7ec263409f9f0a9486d3db2, type: 3}
+    modifier: {fileID: 114581199322356280}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: 0
+    reactor: 0
+    size: -1
+  - cardName: BEE-TLES
+    description: They claim to be bigger than Space Jesus.
+    sectionColor: {r: 0, g: 0.53050137, b: 1, a: 1}
+    cardColor: {r: 0.6037736, g: 0.4089472, b: 0.09967959, a: 1}
+    isModifier: 0
+    species: 6
+    art: {fileID: 21300000, guid: 512c21bc1afb83740a22d723a566aafe, type: 3}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 1
+    food: -1
+    entertainment: 2
+    reactor: 0
+    size: -1
+  - cardName: OASIS
+    description: Reminds the cold blooded ones of their lost home.
+    sectionColor: {r: 0, g: 1, b: 0.8124628, a: 1}
+    cardColor: {r: 0.7924528, g: 0.15325737, b: 0.15325737, a: 1}
+    isModifier: 0
+    species: 7
+    art: {fileID: 0}
+    modifier: {fileID: 0}
+    Random: 0
+    population: 0
+    food: 2
+    entertainment: 2
+    reactor: -1
+    size: -1
+--- !u!114 &114842873621526088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27deb383210094a48a790a88ecbaf68d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114927033826082832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715668779447028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbacdaa05796fa948844a58d00f5cfc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
